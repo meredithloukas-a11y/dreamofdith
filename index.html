@@ -1,145 +1,158 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Dream Of Dith | Meredith Lucas </title>
-
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-
+    <title>Meredith Lucas Art Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <!-- Header / Hero Section -->
+    <!-- HEADER -->
     <header>
-        <h1>Your Creative Portfolio</h1>
-        <p>Artist • Illustrator • Designer</p>
+        <h1>Meredith Lucas Art Portfolio</h1>
+        <p>Created by Meredith Lucas</p>
     </header>
 
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- About -->
-    <section id="about">
-        <h2>About Me</h2>
-
+    <!-- BIOGRAPHY -->
+    <section class="artist-section">
+        <h2>Welcome to My Portfolio</h2>
         <p>
-            Welcome to my art portfolio. This space showcases my creative work,
-            artistic journey, and passion for visual storytelling.
-        </p>
-
-        <p>
-            I enjoy experimenting with color, texture, and composition to
-            create artwork that inspires curiosity and emotion.
+            Welcome to my online art portfolio. This collection showcases a range
+            of creative works that reflect my artistic journey, inspirations,
+            and exploration of different techniques and mediums. Each collection
+            represents a unique perspective and invites viewers to experience
+            the stories, emotions, and ideas behind my artwork.
         </p>
     </section>
 
-    <!-- Gallery -->
-    <section id="gallery">
-        <h2>Featured Artwork</h2>
+    <!-- ART COLLECTION LINKS -->
+    <section class="collections">
 
-        <div class="gallery">
+        <div class="collection-grid">
 
-            <div class="artwork">
-                <img src="images/artwork1.jpg" alt="Artwork 1">
-                <div class="artwork-info">
-                    <h3>Artwork Title</h3>
-                    <p>Medium and year.</p>
-                </div>
+            <div class="collection-card">
+                <a href="collection1.html">
+                    <img src="images/collection1-cover.jpg"
+                         alt="Collection 1"
+                         style="width:100%; border-radius:10px; margin-bottom:15px;">
+                    <h3>Collection One</h3>
+                    <p>Landscape & Nature Works</p>
+                </a>
             </div>
 
-            <div class="artwork">
-                <img src="images/artwork2.jpg" alt="Artwork 2">
-                <div class="artwork-info">
-                    <h3>Artwork Title</h3>
-                    <p>Medium and year.</p>
-                </div>
+            <div class="collection-card">
+                <a href="collection2.html">
+                    <img src="images/collection2-cover.jpg"
+                         alt="Collection 2"
+                         style="width:100%; border-radius:10px; margin-bottom:15px;">
+                    <h3>Collection Two</h3>
+                    <p>Portrait Studies</p>
+                </a>
             </div>
 
-            <div class="artwork">
-                <img src="images/artwork3.jpg" alt="Artwork 3">
-                <div class="artwork-info">
-                    <h3>Artwork Title</h3>
-                    <p>Medium and year.</p>
-                </div>
+            <div class="collection-card">
+                <a href="collection3.html">
+                    <img src="images/collection3-cover.jpg"
+                         alt="Collection 3"
+                         style="width:100%; border-radius:10px; margin-bottom:15px;">
+                    <h3>Collection Three</h3>
+                    <p>Abstract Expressions</p>
+                </a>
             </div>
 
-            <div class="artwork">
-                <img src="images/artwork4.jpg" alt="Artwork 4">
-                <div class="artwork-info">
-                    <h3>Artwork Title</h3>
-                    <p>Medium and year.</p>
-                </div>
+            <div class="collection-card">
+                <a href="collection4.html">
+                    <img src="images/collection4-cover.jpg"
+                         alt="Collection 4"
+                         style="width:100%; border-radius:10px; margin-bottom:15px;">
+                    <h3>Collection Four</h3>
+                    <p>Mixed Media Projects</p>
+                </a>
             </div>
 
         </div>
+
     </section>
 
-    <!-- Projects -->
-    <section id="projects">
-        <h2>Creative Projects</h2>
+    <!-- MEET THE ARTIST -->
+    <section class="artist-section">
 
-        <article>
-            <h3>Project Name</h3>
-            <p>
-                Describe your project, inspiration, techniques, and creative
-                process here.
-            </p>
-        </article>
+        <div style="
+            display:flex;
+            align-items:center;
+            gap:40px;
+            flex-wrap:wrap;
+        ">
 
-        <article>
-            <h3>Project Name</h3>
-            <p>
-                Share details about exhibitions, commissions, collaborations,
-                or personal creative work.
-            </p>
-        </article>
+            <div style="flex:1; min-width:250px;">
+                <img src="images/artist-photo.jpg"
+                     alt="Meredith Lucas"
+                     style="width:100%; border-radius:12px;">
+            </div>
+
+            <div style="flex:2; min-width:300px;">
+                <h2>Meet the Artist</h2>
+
+                <p>
+                    Meredith Lucas is a visual artist whose work explores
+                    creativity, storytelling, and personal expression through
+                    a variety of artistic mediums. Inspired by nature, emotion,
+                    and everyday experiences, Meredith strives to create artwork
+                    that encourages reflection and connection. Through this
+                    portfolio, visitors can explore collections that represent
+                    different stages of artistic growth and experimentation.
+                </p>
+            </div>
+
+        </div>
+
     </section>
 
-    <!-- Artist Statement -->
-    <section id="statement">
-        <h2>Artist Statement</h2>
+    <!-- CONTACT FORM -->
+    <section class="contact-section">
 
-        <blockquote>
-            "Art allows us to see the world through new perspectives and
-            connect through shared imagination."
-        </blockquote>
-    </section>
+        <h2>Contact Me</h2>
 
-    <!-- Contact -->
-    <section id="contact">
-        <h2>Contact</h2>
+        <!-- Replace YOUR_FORM_ID with your Formspree form ID -->
+        <form
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+            class="contact-form">
 
-        <form>
-            <input type="text" placeholder="Your Name" required>
+            <label for="name">Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                required>
 
-            <input type="email" placeholder="Email Address" required>
+            <label for="email">Email</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required>
 
-            <textarea rows="6" placeholder="Message"></textarea>
+            <label for="message">Message</label>
+            <textarea
+                id="message"
+                name="message"
+                required></textarea>
 
             <button type="submit">Send Message</button>
+
         </form>
+
     </section>
 
-    <!-- Footer -->
+    <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 Your Name. All rights reserved.</p>
-
-        <div class="social-links">
-            <a href="#">Instagram</a>
-            <a href="#">Behance</a>
-            <a href="#">Pinterest</a>
-        </div>
+        <p>&copy; 2026 Meredith Lucas Art Portfolio. All Rights Reserved.</p>
     </footer>
 
 </body>
 </html>
+```
