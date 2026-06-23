@@ -1,0 +1,210 @@
+/* ==========================
+   GENERAL STYLING
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #f5ede1; /* Beige Background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ==========================
+   HEADER
+========================== */
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* ==========================
+   COLLECTION LINKS
+========================== */
+
+.collections {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.collection-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.collection-card {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.collection-card:hover {
+    transform: translateY(-5px);
+}
+
+.collection-card a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* ==========================
+   MEET THE ARTIST
+========================== */
+
+.artist-section {
+    background: #fff;
+    width: 90%;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.artist-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.artist-section p {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* ==========================
+   CONTACT FORM
+========================== */
+
+.contact-section {
+    width: 90%;
+    max-width: 800px;
+    margin: 60px auto;
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #b78f6b;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #9d7756;
+}
+
+/* ==========================
+   GALLERY PAGES
+========================== */
+
+.gallery-header {
+    text-align: center;
+    padding: 50px 20px 20px;
+}
+
+.gallery-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.gallery-header p {
+    max-width: 700px;
+    margin: auto;
+    color: #666;
+}
+
+.gallery-container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 40px auto 80px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.03);
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+}
